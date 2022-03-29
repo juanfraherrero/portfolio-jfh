@@ -32,7 +32,7 @@
 }
 
 .hero .btn{
-    background-color: #6bf50a;
+    background-color: rgba(106, 232, 187, 1);
     color:white;
     border:none;
     padding: 1vh 1vw;
@@ -61,7 +61,7 @@
     padding: 0 0 1vh 0;
 }
 .content a{
-    color: #6bf50a;
+    color: rgba(106, 232, 187, 1);
 }
 
 .content-section-second{
@@ -97,7 +97,7 @@
     min-height: 10vh;
 }
 .card a{
-    color: #6bf50a
+    color: rgba(106, 232, 187, 1); 
 }
 .content-section-third {
     width: 75vw;

@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: 'rufina', sans-serif;
+}
+body{
+    background-color: #efefef;
+    color: #9611ff; 
+}
+
+a{
+    padding: 1vh 1vw;
+    text-transform: capitalize;
+    font-family: "Rubik", sans-serif;
+    text-decoration: none;
+    font-weight: 700;   
+    color: inherit; 
+    transition: 0.3s ease;
+}
+
+a:hover{
+    color: #6bf50a;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 3px 0 5px #aaa;
+    padding: 2vh 2vw;
+    position: relative;
+    z-index: 2;
+}
+
+header .logo{
+    font-size: 20px;
+    font-family: "Rubik", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;   
+}
+
+header ul {
+    list-style-type: none;
+    font-size: 16px;
+}
+header ul li {
+    display: inline-block;
+}
+
+.footer{
+    padding: 5vh 0 0 0;
+    margin-top: 3vh;
+    background-color: #333;
+    color: #fff;
+}
+
+.footer h3, .footer p{
+    padding: 1vh 1vw;
+}
+
+.footer .social-links{
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+}
+.footer .social{
+    width: 2vw;
+    background-color: #fff;
+    padding: 1vh;
+    border-radius: 1vw;
+}
+
+.footer .social-links .row{
+    width: 20vw;
+}
+
+.made-with{
+    padding: 1vh 1vw;
+    color: #555;
+
+}

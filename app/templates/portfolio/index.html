@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{%block title%}
+Bienvenido
+{%endblock%}
+{%block css%}
+<link rel="stylesheet" href="static/index.css">
+{%endblock%}
+
+{%block content%}
+    <div class="hero">
+        <div class="hero-content">
+            <div class="left">
+                <h1>Soy desarrollador</h1>
+                <h1>Juan Francisco Herrero</h1>
+                <p>
+                    Construyo aplicaciones en Python dinámicas
+                </p>
+                <a href="#contacto" class="btn">contáctame</a>
+            </div>
+            <div class="right">
+                <img src="{{ url_for('static', filename='bigData.png') }}" alt="imagen de big data" width="600px">
+            </div>
+        </div>
+    </div>
+
+{% include 'portfolio/section-first.html'%}
+{% include 'portfolio/section-second.html' %}
+{% include 'portfolio/section.third.html' %}
+{%endblock%}

@@ -1,0 +1,163 @@
+.hero{
+    background-color: #fff;
+    padding: 3vh 2vw;
+    display: flex; 
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.hero .hero-content{
+    width: 75vw;
+    display: flex; 
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.left {
+    max-width: 600px;
+}
+.right{
+    max-width: 600px;
+}
+.hero h1{
+    font-family: 'rufina', sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+.hero p{
+    font-family: 'Rubik', sans-serif;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+}
+
+.hero .btn{
+    background-color: #6bf50a;
+    color:white;
+    border:none;
+    padding: 1vh 1vw;
+    border-radius: 1vh;
+}
+
+.center{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.content{
+    width: 75vw;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+.content .left{
+    padding: 4vh 1vw;
+}
+.content .right{
+    padding: 4vh 1vw;
+}
+.content h1{
+    padding: 0 0 1vh 0;
+}
+.content a{
+    color: #6bf50a;
+}
+
+.content-section-second{
+    width: 75vw;
+}
+.content-section-second h1{
+    padding: 4vh 1vw;
+}
+
+.row{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0 1px 2px #ddd;
+    border: solid 1px #ddd;
+    border-radius: 1vw;
+    padding: 3%;
+    width: 15vw;
+    margin: 2%;
+}
+
+.card h3{
+    padding: 2vh 0.5vw;
+}
+.card p{
+    padding: 0vh 0.5vw;
+    padding-bottom: 2vh;
+    min-height: 10vh;
+}
+.card a{
+    color: #6bf50a
+}
+.content-section-third {
+    width: 75vw;
+    margin: 5vh 0;
+}
+
+.content-section-third .left-third{
+    width: 40%;
+    height: 50vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.content-section-third .right-third{
+    width: 55%;
+    height: 50vh;
+}
+
+.content-section-third .left-third h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    padding: 4vh 1vw 2vh 1vw;
+}
+
+.content-section-third .left-third p{
+    font-family: 'Rubik', sans-serif;
+    padding: 0vh 1vw;
+    
+}
+form {
+    height: 50vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+form > * {
+    font-family: 'Rubik', sans-serif;
+    border: none;
+    border-radius: 1vw;
+    width: 85%;
+    padding: 2vh;
+    box-shadow: 0 1px 2px #ddd;
+}
+
+form .btn {
+    width: 91%;
+    background-color: #9611ff;
+    color: white;
+    padding: 1vh 2vw;
+}
+form textarea{
+    resize: none;
+    overflow-y: auto;
+    min-height: 15vh;
+}
+
+.white-bg{
+    background-color: white;
+}

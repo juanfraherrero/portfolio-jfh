@@ -1,0 +1,7 @@
+entorno/
+.env
+
+*.pyc
+__pycache__/
+
+instance/

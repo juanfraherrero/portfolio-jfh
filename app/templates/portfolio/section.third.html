@@ -1,0 +1,19 @@
+<div class="center">
+    <div class="content-section-third">
+        <div class="row">
+            <div class="left-third">
+                <h1>Ahora o nunca! Trabajemos juntos</h1>
+                <p>Daré mi mayor esfuerzo! para aprender, aportar valor  que tengamos una fructífera relación a largo plazo</p>
+            </div>
+            <div id="contacto" class="right-third">
+                <form class="form" action="{{ url_for('portfolio.mail')}}" method="post">
+                    <input name="name" type="text" placeholder="Nombre..." required> 
+                    <input name="email" type="email" placeholder="Email..." required> 
+                    <textarea name="Mensaje" placeholder="Mensaje..." autocapitalize="sentences" required minlength="10"></textarea>                    
+                    <button class="btn">Enviar</button>
+                </form>
+            
+            </div>
+        </div>
+    </div>
+</div>
